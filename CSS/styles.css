@@ -2,12 +2,13 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    background-color: #f0f0f0;
 }
 
 h1{
     font-family: 'Sacramento', cursive;
     font-size: 90px;
-    color: #66BFBF;
+    color:blue;
 }
 
 h2{
@@ -46,7 +47,17 @@ a:hover{
 .top-container{
     background-color: #E4F9F5;
     padding-top: 100px;
+    
 }
+
+.profile-image {
+    max-width: 200px; /* Adjust the value as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.job-title {
+    margin-top: -80px; /* Adjust the value to move it upward */
+}
+
 
 .top-cloud{
     position:relative;
@@ -64,12 +75,14 @@ a:hover{
 
 .bottom-cloud{
     position:absolute;
+   
 }
 
 .programmer{
     height: 300px;
     width: 300px;
     line-height: normal;
+    padding-top: 50px;
 }
 
 .monitor-pic{
@@ -139,5 +152,6 @@ a:hover{
 
  .copyright{
      color: black;
-     font-size: 0.75rem;
+     
+     font-size: 25px;
  }
